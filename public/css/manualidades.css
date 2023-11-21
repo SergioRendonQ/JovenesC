@@ -1,0 +1,60 @@
+body {
+  background-image: url(http://localhost/prueba/public/img/fondobl.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  font-size: 90px;
+  position: relative;
+  top: -35px;
+}
+.flecha {
+  position: relative;
+  bottom: 31vh;
+  width: 90px;
+  left: -870px;
+}
+.img {
+  width: 450px;
+  height: 250px;
+  position: relative;
+  left: 205px;
+  top: 20px;
+  padding: 30px;
+}
+
+.izquierda {
+  width: 50%;
+  float: left;
+}
+
+.derecha {
+  width: 50%;
+  float: left;
+  top: 200px;
+}
+
+.titulo-primero {
+  position: relative;
+  left: -200px;
+  text-align: center;
+  top: -70px;
+  font-size: 80px;
+  padding: 28px;
+}
+.primero {
+  position: relative;
+  left: -180px;
+  text-align: center;
+  top: -120px;
+  font-size: 30px;
+}
+
+.especial {
+  position: relative;
+  bottom: 19vh;
+  width: 90px;
+  left: -870px;
+}
