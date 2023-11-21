@@ -1,0 +1,185 @@
+body {
+  background-image: url(../img/INICIAR\ SESIÓN.png);
+  background-size: cover;
+}
+.circle {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: right;
+  margin-right: 40px;
+  margin-top: -160px;
+}
+
+.circle img {
+  width: 100%;
+  /* Ajusta la imagen para que llene completamente el contenedor */
+  height: auto;
+  /* Ajusta la altura de la imagen automáticamente */
+  display: block;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+  font-size: 60px;
+  bottom: 3vh;
+}
+
+.title2 {
+  position: relative;
+  text-align: center;
+  font-size: 55px;
+  font-family: "Latin Modern Roman";
+  font-style: italic;
+  font-weight: bold;
+  bottom: 5vh;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column; /* Alinea los botones en una columna */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 15vh; /* Ajusta la altura del contenedor para centrar verticalmente */
+}
+.button-container2 {
+  height: 5vh;
+}
+
+.button {
+  background-color: #9ccee9;
+  color: #1e4054;
+  padding: 22px 40px;
+  font-size: 33px;
+  border: black;
+  margin-bottom: 20px; /* Espacio entre los botones */
+  border-radius: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.section-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: #cecece00;
+  position: relative;
+}
+
+.section-label {
+  font-size: 3vw;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.section-input {
+  height: 35px;
+  width: 16%;
+}
+
+h2 {
+  font-size: 250%;
+  text-align: center;
+}
+
+/* Estilos para el modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  height: 40%;
+  text-align: center;
+}
+
+.close {
+  color: #8f8f8f;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#mostrarContrasena {
+  display: flex;
+  position: relative;
+  left: 19vh;
+  bottom: 3.8vh;
+}
+
+.form {
+  position: relative;
+  bottom: 12vh;
+}
+
+.flecha {
+  position: relative;
+  top: 2vh;
+  width: 90px;
+  left: 10px;
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  bottom: 12vh;
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1080px) {
+  .title {
+    position: relative;
+    top: 3vh;
+  }
+
+  .title2 {
+    position: relative;
+    top: 8.5vh;
+  }
+
+  .section-form {
+    position: relative;
+    top: 15vh;
+  }
+
+  .button-container {
+    position: relative;
+    top: 5vh;
+  }
+
+  #mostrarContrasena {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+  .form {
+    position: relative;
+    bottom: 15vh;
+  }
+
+  .button-container {
+    position: relative;
+    bottom: 10vh;
+  }
+
+  .title2 {
+    position: relative;
+    bottom: 10vh;
+  }
+}
